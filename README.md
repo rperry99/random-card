@@ -5,3 +5,4 @@
 - Shuffle the array with the Fisher-Yates shuffle algorithm
 - Base functionality works
   - When you click the button, a new card will be shown to you.
+- Add styling to make it pretty
