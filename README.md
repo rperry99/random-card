@@ -1,7 +1,3 @@
-### Here is the link to see the project in your browser
-
-- [Random Card](https://rperry99.github.io/random-card/index.html)
-
 ## Features to add
 
 - Say what poker hand you have.
