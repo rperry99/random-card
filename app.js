@@ -22,22 +22,20 @@ for (let i = 0; i < suit.length; i++) {
 function getCard() {
   let x = Math.floor(Math.random() * 52);
   document.getElementById("yourCard").style.display = "block";
-  yourCard = deck[x];
-  cardText.innerHTML = yourCard;
+  shuffle(deck);
+  cardText.innerHTML = `Your hand is: ${deck[0]}, ${deck[1]}, ${deck[2]}, ${
+    deck[3]
+  }, and ${deck[4]}`;
 }
 
-/*
-    I decided to get the random card without shuffling the array.
-    I am keeping this here because a future feature of this project will need it.
-*/
 //function to shuffle the cards
-// function shuffle(array) {
-//   let j, x, i;
-//   for (i = array.length - 1; i > 0; i--) {
-//     j = Math.floor(Math.random() * (i + 1));
-//     x = array[i];
-//     array[i] = array[j];
-//     array[j] = x;
-//   }
-//   return array;
-// }
+function shuffle(array) {
+  let j, x, i;
+  for (i = array.length - 1; i > 0; i--) {
+    j = Math.floor(Math.random() * (i + 1));
+    x = array[i];
+    array[i] = array[j];
+    array[j] = x;
+  }
+  return array;
+}
