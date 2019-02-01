@@ -1,6 +1,9 @@
 ## Features to add
 
 - Say what poker hand you have.
+- Maybe add pictures of the cards?
+- Do two hands and say who wins?
+  - Let the user choose how many hands to deal up to X
 
 ## Version 1
 
